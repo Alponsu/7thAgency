@@ -1,0 +1,109 @@
+body {
+    background-color: #071C34;
+    font-family: 'DM-Sans', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.application-container {
+    background-color: #0B1F3A;
+    border-radius: 8px;
+    padding: 20px 40px;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+.login-info {
+    font-size: 0.9rem;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #B0B3B8;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #B0B3B8;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+}
+
+input::placeholder {
+    color: #B0B3B8;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F1F1F1;
+    color: #0B1F3A;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Fredoka';
+    font-weight: 600;
+    flex: 1;
+    margin: 0 5px;
+    width: 30px;
+}
+
+.button-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}

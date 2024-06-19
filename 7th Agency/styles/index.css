@@ -1,0 +1,63 @@
+body {
+    background-color: #071C34;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 36px;
+    width: 100px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.registration-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    padding: 20px; 
+}
+
+.logo-div{
+    width: 100%;
+}
+.logo {
+    height: 500px;
+}
+
+.register {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.register-text {
+    margin-bottom: 10px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
