@@ -1,13 +1,5 @@
 const maxCharacterDetails = 3;
 
-document.getElementById('next-button').onclick = function() {
-    window.location.href = 'thankyou.php';
-};
-
-document.getElementById('previous-button').onclick = function() {
-    window.location.href = 'workexperience.php';
-};
-
 function addCharacter() {
     const container = document.getElementById('characterDetailsContainer');
     const characterDetailsCount = container.getElementsByClassName('character-details').length;
@@ -15,23 +7,23 @@ function addCharacter() {
     if (characterDetailsCount < maxCharacterDetails) {
         const newIndex = characterDetailsCount + 1;
         const characterDetails = document.createElement('div');
-        characterDetails.className = 'character-details';
+        characterDetails.className = 'az-div character-details';
         characterDetails.innerHTML = `
             <div class="form-group">
                 <label for="character-name-${newIndex}">NAME</label>
-                <input type="text" id="character-name-${newIndex}" name="character-name" placeholder="NAME">
+                <input type="text" id="character-name-${newIndex}" name="character-name[]">
             </div>
             <div class="form-group">
-                <label for="location-${newIndex}">TITLE</label>
-                <input type="text" id="location-${newIndex}" name="location" placeholder="LOCATION">
+                <label for="title-${newIndex}">TITLE</label>
+                <input type="text" id="title-${newIndex}" name="title[]">
             </div>
             <div class="form-group">
                 <label for="company-${newIndex}">COMPANY</label>
-                <input type="text" id="company-${newIndex}" name="company" placeholder="COMPANY">
+                <input type="text" id="company-${newIndex}" name="company[]">
             </div>
             <div class="form-group">
                 <label for="phone-${newIndex}">PHONE</label>
-                <input type="text" id="phone-${newIndex}" name="phone" placeholder="PHONE">
+                <input type="text" id="phone-${newIndex}" name="phone[]">
             </div>
         `;
         container.appendChild(characterDetails);

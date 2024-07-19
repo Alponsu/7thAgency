@@ -1,0 +1,39 @@
+.popup{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content{
+    height: 250px;
+    width: 500px;
+    border-radius: 6px;
+    background: #071C34;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.close-button{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.fresh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close{
+    font-size: 45px;
+    color: white;
+    text-decoration: none;
+}

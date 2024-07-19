@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="photo&icons/Logo w_ bg.png">
     <link rel="stylesheet" href="styles/thankyou.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +26,7 @@
                 <div class="register-text">
                 We'll review it and can be in touch shortly
                 </div>
-
+            <a href="index.php">Go back</a>
             </div>
         </div>
     </div>  

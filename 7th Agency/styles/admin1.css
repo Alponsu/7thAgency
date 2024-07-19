@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #071C34;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.applicant-container {
+  background-color: #071C34;
+  border-radius: 8px;
+  padding: 20px 40px;
+  width: 100%;
+  max-width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-top: 0%;
+}
+
+  
+.container {
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #071C34;
+  border-radius: 8px
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.table-container {
+  max-height: 100vh; /* Adjust height as needed */
+  max-width: auto;
+  overflow-y: scroll;
+  overflow-x: scroll; /* Enable horizontal scrolling if needed */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffffff;
+  color: #071C34;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ffff;
+  text-align: left;
+}
+
+th {
+  background-color: #ffff;
+  color: #071C34;
+  position: sticky;
+  top: 0; /* Keep header fixed */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* CSS for the navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; /* Adjust padding as needed */
+  background-color: #071C34;
+  text-align: center;
+  width: 100%;
+  position: fixed; /* Fixed position to stay at the top */
+  top: 0; /* Align to the top of the viewport */
+  z-index: 1000; /* Ensure it's above other content */
+  display: flex;
+  justify-content: center; /* Align items horizontally with space between */
+  align-items: center; /* Center vertically */
+
+}
+
+.logo {
+  width: 50px; /* Adjust the size of the logo */
+  height: auto;
+  margin-left: 20px;
+  margin-right: 40px; /* Adjust the spacing between logo and menu items */
+}
+
+li {
+  display: inline;
+  margin-right: 15px; /* Adjust spacing between menu items */
+}
+li a {
+  text-decoration: none;
+  color: white; /* Font color */
+  padding: 20px 30px; /* Adjust padding inside each menu item */
+  font-size: 16px; /* Adjust font size */
+}
+
+li ab {
+  text-decoration: none;
+  color: #071C34; /* Font color */
+  padding: 20px 30px; /* Adjust padding inside each menu item */
+  font-size: 16px; /* Adjust font size */
+  background-color: white;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: white; /* Background color on hover */
+  color: #071C34;
+  padding: 20px 30px;
+  font-weight: bold;
+  font-size: 16px; /* Adjust font size */
+}
+
